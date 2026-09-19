@@ -6,6 +6,10 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
 description = "A tatabányai Reménység gyülekezet weboldala"
+# Fejléc alcím a gyülekezet neve alatt (rólunk_hu.doc)
+tagline = "Segíteni szóval, tettel, imádsággal"
+# Kezdőlap hero alcíme (rólunk_hu.doc)
+heroSub = "Az igazi reménység Istennél, Jézus Krisztusban"
 # Borítóképek mindhárom, minden oldalon rotálva. Elérési út a static/ mappához képest.
 heroImages = ["img/demo1.webp", "img/demo2.webp", "img/demo3.webp"]
 heroAlt = "Gyülekezeti közösség – illusztráció"

@@ -23,7 +23,7 @@
       <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }} – kezdőlap">
         <img src="{{ "logo/logo1.jpg" | relURL }}" alt="" width="72" height="72" class="brand-logo">
         <span class="brand-text">{{ .Site.Title }}</span>
-        <span class="brand-tagline">{{ .Site.Params.description }}</span>
+        <span class="brand-tagline">{{ with .Site.Params.tagline }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</span>
       </a>
       <nav aria-label="Fő navigáció" class="main-nav">
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-lista">

@@ -16,7 +16,7 @@
     {{ if .IsHome }}
       <p class="hero-kicker">Tatabánya</p>
       <h1 class="hero-title">Szeretettel köszöntjük!</h1>
-      <p class="hero-sub">{{ .Site.Params.description }}</p>
+      <p class="hero-sub">{{ with .Site.Params.heroSub }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</p>
     {{ else }}
       <p class="hero-kicker">{{ .Site.Title }}</p>
       <h1 class="hero-title">{{ .Title }}</h1>
