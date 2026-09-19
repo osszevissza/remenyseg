@@ -1,0 +1,29 @@
+{{/* Nyelvválasztó a tartalomhoz.
+   Paraméterek: page (oldal kontextus), kulcs (data/nyelvek.yaml kulcs), magyar (HTML) */}}
+{{ $page := .page }}
+{{ $kulcs := .kulcs }}
+{{ $magyar := .magyar }}
+{{ $forditasok := dict }}
+{{ with index site.Data.nyelvek $kulcs }}{{ $forditasok = . }}{{ end }}
+<div class="nyelvvalto">
+  <fieldset class="nyelvvalto-vezerlok">
+    <legend class="visually-hidden">Nyelv választása</legend>
+    <input type="radio" name="nyelv-{{ $kulcs }}" id="nyelv-{{ $kulcs }}-hu" value="hu" checked>
+    <label for="nyelv-{{ $kulcs }}-hu" lang="hu">HU</label>
+    {{ with index $forditasok "en" }}
+    <input type="radio" name="nyelv-{{ $kulcs }}" id="nyelv-{{ $kulcs }}-en" value="en">
+    <label for="nyelv-{{ $kulcs }}-en" lang="en">EN</label>
+    {{ end }}
+    {{ with index $forditasok "de" }}
+    <input type="radio" name="nyelv-{{ $kulcs }}" id="nyelv-{{ $kulcs }}-de" value="de">
+    <label for="nyelv-{{ $kulcs }}-de" lang="de">DE</label>
+    {{ end }}
+  </fieldset>
+  <div class="nyelv-panel" lang="hu">{{ $magyar }}</div>
+  {{ with index $forditasok "en" }}
+  <div class="nyelv-panel" lang="en">{{ $page.RenderString . }}</div>
+  {{ end }}
+  {{ with index $forditasok "de" }}
+  <div class="nyelv-panel" lang="de">{{ $page.RenderString . }}</div>
+  {{ end }}
+</div>

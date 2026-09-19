@@ -1,3 +1,68 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "/"
+languageCode = "hu"
+title = "Reménység Gyülekezete"
+defaultContentLanguage = "hu"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+description = "A tatabányai Reménység gyülekezet weboldala"
+# Borítóképek mindhárom, minden oldalon rotálva. Elérési út a static/ mappához képest.
+heroImages = ["img/demo1.webp", "img/demo2.webp", "img/demo3.webp"]
+heroAlt = "Gyülekezeti közösség – illusztráció"
+# Elérhetőségek (a gyülekezet szóróanyaga alapján)
+address = "Tatabánya, Mátyás Király u. 19."
+phone = "+36 20 369 7741"
+# E-mail cím egyeztetés alatt – placeholder
+email = "info@example.hu"
+
+# Alkalmak – a lábléc és a kezdőlap is ebből épül
+[[params.alkalmak]]
+  nap = "Vasárnap"
+  ido = "10:00"
+  nev = "Istentisztelet"
+
+[[params.alkalmak]]
+  nap = "Csütörtök"
+  ido = "17:00"
+  nev = "Ima- és bibliaóra"
+
+[menus]
+
+  [[menus.main]]
+    name = "Kezdőlap"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    name = "Rólunk"
+    pageRef = "/rolunk"
+    weight = 20
+
+  [[menus.main]]
+    name = "Hitvallás"
+    pageRef = "/hitvallas"
+    weight = 30
+
+  [[menus.main]]
+    name = "Megvallások"
+    pageRef = "/megvallasok"
+    weight = 40
+
+  [[menus.main]]
+    name = "Aktuális"
+    pageRef = "/aktualis"
+    weight = 50
+
+  [[menus.main]]
+    name = "Galéria"
+    pageRef = "/galeria"
+    weight = 60
+
+  [[menus.footer]]
+    name = "Adományozás"
+    pageRef = "/adomanyozas"
+    weight = 30
+
+[markup.goldmark.renderer]
+unsafe = true
+hardWraps = true

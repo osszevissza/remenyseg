@@ -1,0 +1,22 @@
+# A galéria képeinek szövegei.
+# Kulcs: a kép fájlneve az assets/img/galeria/ mappából.
+#   alt:     képleírás képernyőolvasóknak
+#   caption: a nagyított kép alatt megjelenő felirat (elhagyható)
+"foto-01.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-02.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-03.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-04.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-05.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-06.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-07.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-08.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"
+"foto-09.jpg":
+  alt: "Helyőrző kép – gyülekezeti fotó helye"

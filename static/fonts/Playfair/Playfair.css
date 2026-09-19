@@ -1,0 +1,16 @@
+/* Playfair Display – Regular és Bold, a brief/fontok mappából optimalizálva */
+@font-face {
+    font-family: 'Playfair';
+    src: url('Playfair-Regular.woff2?v=2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('Playfair-Bold.woff2?v=2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}

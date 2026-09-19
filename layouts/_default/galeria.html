@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <article class="card article">
+    <h2 class="visually-hidden">{{ .Title }}</h2>
+    {{ .Content }}
+
+    {{ $images := resources.Match "img/galeria/*" }}
+    {{ if $images }}
+    <ul class="gallery-grid">
+      {{ range $i, $img := $images }}
+        {{ $ext := lower (path.Ext $img.Name) }}
+        {{ if in (slice ".jpg" ".jpeg" ".png" ".webp") $ext }}
+          {{ $thumb := $img.Resize "720x480 webp q82" }}
+          {{ $full := $img.Resize "1600x webp q86" }}
+          {{ $meta := false }}
+          {{ with site.Data.galeria }}{{ $meta = index . (path.Base $img.Name) }}{{ end }}
+          {{ $alt := printf "Helyőrző kép – %d. kép" (add $i 1) }}
+          {{ with $meta }}{{ with .alt }}{{ $alt = . }}{{ end }}{{ end }}
+          {{ $caption := "" }}
+          {{ with $meta }}{{ with .caption }}{{ $caption = . }}{{ end }}{{ end }}
+          <li>
+            <a class="gallery-item" href="{{ $full.RelPermalink }}" data-caption="{{ $caption }}">
+              <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async">
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+
+    <dialog id="galeria-dialog" aria-label="Nagyított kép">
+      <button type="button" class="gallery-close" id="galeria-close" aria-label="Bezárás">×</button>
+      <img id="galeria-nagy" src="" alt="">
+      <p id="galeria-leiras" class="gallery-caption"></p>
+    </dialog>
+    {{ else }}
+    <p>Hamarosan érkeznek a képek.</p>
+    {{ end }}
+  </article>
+{{ end }}

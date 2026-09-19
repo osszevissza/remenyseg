@@ -1,0 +1,79 @@
+{{ define "main" }}
+  <div class="home-grid">
+    <article class="card greeting">
+      {{ partial "nyelvvalto.html" (dict "page" . "kulcs" "kezdolap" "magyar" .Content) }}
+    </article>
+
+    <section class="card verse" aria-labelledby="ige-cim">
+      <h2 id="ige-cim">Napi ige</h2>
+      {{ with .Site.Data.igek }}
+      <blockquote class="verse-quote" aria-live="polite" aria-atomic="true">
+        <p id="ige-szoveg">„{{ (index . 0).text }}”</p>
+        <footer>— <cite id="ige-hely">{{ (index . 0).ref }}</cite></footer>
+      </blockquote>
+      <div class="verse-controls">
+        <button type="button" id="ige-elozo">← Előző ige</button>
+        <button type="button" id="ige-pause" aria-pressed="false"><span class="ikon" aria-hidden="true">⏸</span> <span class="felirat">Szünet</span></button>
+        <button type="button" id="ige-kovetkezo">Következő ige →</button>
+      </div>
+      <figure class="verse-kep">
+        <img src="{{ "img/vers-hatter.jpg" | relURL }}" alt="" loading="lazy" decoding="async">
+      </figure>
+      <noscript>
+        <ul class="verse-noscript">
+          {{ range . }}
+          <li>„{{ .text }}” ({{ .ref }})</li>
+          {{ end }}
+        </ul>
+      </noscript>
+      <script type="application/json" id="igek-adat">{{ . | jsonify | safeJS }}</script>
+      {{ end }}
+    </section>
+  </div>
+
+  <section class="alkalmak-sav" aria-labelledby="alkalmak-cim">
+    <div class="alkalmak-belso">
+      <div>
+        <h2 id="alkalmak-cim">Alkalmaink</h2>
+        <ul class="alkalom-lista">
+          {{ range .Site.Params.alkalmak }}
+          <li>
+            <span class="alkalom-nap">{{ .nap }}</span>
+            <span class="alkalom-ido">{{ .ido }}</span>
+            <span class="alkalom-nev">{{ .nev }}</span>
+          </li>
+          {{ end }}
+        </ul>
+        <p class="alkalom-hely">{{ .Site.Params.address }}</p>
+      </div>
+      <div class="tamogatas">
+        <h2>Támogatás</h2>
+        <p>Szeretné támogatni a gyülekezet szolgálatát? Minden adományt hálásan köszönünk.</p>
+        <a class="tamogatas-link" href="{{ "adomanyozas" | relURL }}">Adományozás</a>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="fedezd-fel">
+    <h2 id="fedezd-fel">Fedezze fel gyülekezetünket</h2>
+    <ul class="card-grid">
+      <li class="card">
+        <h3><a href="{{ "rolunk" | relURL }}">Rólunk</a></h3>
+        <p>Pünkösdi-karizmatikus közösség Tatabányán. Ismerje meg történetünket és céljainkat.</p>
+      </li>
+      <li class="card">
+        <h3><a href="{{ "hitvallas" | relURL }}">Hitvallásunk</a></h3>
+        <p>Miben hiszünk? Rövidített válogatás hitvallásunkból.</p>
+      </li>
+      <li class="card">
+        <h3><a href="{{ "aktualis" | relURL }}">Aktuális</a></h3>
+        <p>Alkalmak, hírek, események – hamarosan friss tartalommal.</p>
+      </li>
+    </ul>
+    <p class="tovabbi-oldalak">További oldalak:
+      <a href="{{ "megvallasok" | relURL }}">Megvallások</a>
+      <span aria-hidden="true">·</span>
+      <a href="{{ "galeria" | relURL }}">Galéria</a>
+    </p>
+  </section>
+{{ end }}

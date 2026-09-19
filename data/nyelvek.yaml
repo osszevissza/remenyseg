@@ -1,0 +1,89 @@
+# Nyelvi változatok a kezdőlap köszöntőjéhez és a Rólunk szöveghez.
+# A magyar változat a content/ mappában él; itt csak az en/de fordítások vannak.
+kezdolap:
+  en: |
+    ## Greeting
+
+    Dear Visitor,
+
+    With much love and respect, we welcome you to our website. I am Tibor Dezső, the pastor of the Hope Church of Tatabánya. God has given to man the extraordinary honor to call on Him and then to continue to invite the individual into His fellowship. That is the reason that He sent His Son, Jesus Christ, that through Him all of man's sins are forgiven, eternal life is given and true joy can be lived through Him.
+
+    We also would be honored if you would join us in any of our church services where together, we can praise and worship God, study His Word and build each other up in faith through fresh and living testimonies.
+
+    It is very important that we remain a living fellowship through the koinonia (Greek) power. These meetings give the possibility to personally experience our fellowship and to have the joy of being in the presence of the Lord. It is our desire that you and your family will have the rich blessings of the Lord Jesus Christ; along with the joy, health and favor in every area of your lives.
+
+    We wait for you in our meetings!
+
+    *Tibor Dezső, pastor*
+  de: |
+    ## Grußwort
+
+    Lieber Besucher!
+
+    Herzlich willkommen auf unserer Webseite. Ich bin Tibor Dezső, Pastor der Christlichen Gemeinde Hoffnung, TEKK- Tatabánya.
+
+    Dem Menschen ist die ausergewöhnliche Ehre erwiesen, daß er von Gott eingeladen wurde und kontinuirlich in eine Gemeinschaft mit Ihm gerufen wird. Er schickte seinen Sohn Jesus Christus, daß der Mensch sich dank Ihm, im Zusammenseien mit Gott, sich an der Vergebung seiner Sünden und dem Geschenk des ewigen Lebens erfreuen kann.
+
+    Wir würden uns sehr geehrt fühlen, wenn Sie uns bei einer Zusammenkunft in unserer Gemeinde besuchen würden, wo wir dann zusammen Gott Lobpreisen und anbeten könnten. Desweiteren wäre es eine gute Gelegenheit etwas über das Wort Gottes zu lernen, durch den Glauben des anderen zu wachsen, anhand seiner Zeugnistat.
+
+    Ich finde die Kraft der lebenden Gemeinschaft (koinonia) ausserordentlich wichtig. Die persönliche Begegnung ermöglicht es Erfahrung zu sammeln beim gemeinschaftlichem miteinander seien und durch die Präsenz Gottes Freude zu erleben. Wir wünschen Ihnen im Namen des Herrn Jesus reichen Segen für Ihr Leben und Ihre Familie; Frohsinn, Gesundheit und Segen für jedes Gebiet Ihres Lebens.
+
+    Wir erwarten Sie ganz herzlich bei uns.
+
+rolunk:
+  en: |
+    For many people, the affiliation, description and the name is very important. We are defined as a Pentecostal – Charismatic church. Our fellowship is built on a clear foundation that is free from extreme Pentecostal doctrines. We have lively worship and dynamic preaching as well as prayer to the Father in the name of Jesus through the Holy Spirit. We believe that today one can experience Pentecost, the outpouring of the Holy Spirit. We believe that Jesus Christ leads us in a active faith that can be manifested in our everyday lives. For that reason it is important to hear personal testimonies and to share our experiences as well as seeing answers to personal prayer requests.
+
+    ## About Our Fellowship
+
+    Our name - HOPE - also wishes to convey a message (often desperate) to man today of the real hope: where and with whom it can be found. Our vision and convictions are in God, where we can live out the true hope through Jesus Christ, who gives the momentum to face our everyday struggles: „This I recall to my mind, therefore I have hope. Through the Lord's mercies ...” (Lamentations 3: 21-22). Because we place our trust in God „...hope does not disappoint...” (Romans 5:5)
+
+    ## Our Teachings
+
+    Our teachings are based on the Bible, the complete Word of God. We believe that the Bible is God's own words, which is given for all people everywhere in order to lift man out of sin and affliction. Every word is the true, inspired by God and full of the strength and power of the Holy Spirit. The Bible is our revelation and foundation of our faith.
+
+    a./ We believe in the Apostles Creed and the foundations of the Nicene Creed.
+
+    b./ We accept the principles of the Reformation.
+
+    c./ We believe in the universal Christian Church, whose head is Jesus Christ, members of the worldwide Christian brothers and sisters all those who have been born again by the Holy Spirit and strive to live according to the Word of God.
+
+    ## Our Goals
+
+    Our goals of preaching and teaching the Word is in the broadest method and manner (in person, in writing, audio or visual form, etc). We work towards, „... all men to be saved and to come to the knowledge of the truth. (1Timothy 2:4)
+
+    - To ensure the members of the church to exercise their faith be members of the church, like any other person in need of it.
+    - We would like to play a major role in the lives of teenagers in regard to education for mental health, drug prevention, development of character and relationships as well as sex education. We have already provided valuable assistance to many young people - both in schools and state supported orphanages.
+    - Organize Bible courses to acquire fundamental truths for the Christian faith.
+    - Charity work - collecting and distributing donations for the needy.
+
+    We want to be a blessing to society in the city where we live.
+
+    We want to be a help in word, deeds and prayer!
+  de: |
+    Für viele Menschen ist die Frage der Zugehörigkeit, des Namens und der Definition wichtig. Wir definieren uns als pfingstlich- karizmatische Gemeinde. Unsere Gemeinschaft basiert auf der pfingstlichen Lehre, sie ist sauber und frei jeglicher Extremität, mit lebender Lobpreisung, Predigt und dem Gebet zum Vater im Namen Jesus Christus mit dem Heiligen Geist. Wir glauben, daß das Erleben von Pfingsten heute genauso möglich ist, wie zur Zeit der Apostel durch das ausströmen des Heiligen Geistes. Wir glauben, daß der Glaube an Jesus Christus ein aktiver Glaube ist, der sich alltäglich manifestiert. Deshalb ist es für uns wichtig das wir durch unsere persönliche Zeugnistat über Erfahrungen, Gebetsanhörungen in unserem Leben einander bestärken.
+
+    ## Über unsere Gemeinschaft
+
+    Mit unserem Namen möchten wir dem Menschen von heute (die so oft Hoffnungslos sind) die wahre Botschaft der Hoffnung übermitteln: wo und bei wem sie diese finden können. Aus unserer Sicht und Überzeugung ist die wahre und lebendige Hoffnung durch Gott, Jesus Christus zu Erfahren, jene welche uns hilft im Leben weiter zu gehen, inmitten aller Herausforderungen: „Das nehme ich zu Herzen, darum hoffe ich noch.” (Kla 3: 21), daß unser Glaube an Gott unsere: „Hoffnung aber läßt nicht zuschanden werden...”. (Rom 5:5)
+
+    ## Unsere Lehre
+
+    Das Fundament unserer Lehre ist die Heilige Schrift - die Bibel. Wir glauben, daß die Bibel das Wort Gottes ist, das überall und jedem gegeben ist, um den Mensch aus seinen Sünden und seiner Bettelarmut zu befreien. Jedes Wort ist wahr, voll mit Gottes Kraft und Macht, inspiriert durch den Heiligen Geist. Die Bibel ist der Leitfaden und das Fundament des Religiösen Lebens.
+
+    a.) Wir glauben an das Universale chrisliche Kredo und an die verfassten Grundlehren des Kredos von Nicea.
+
+    b.) Wir aktzeptieren die verfassten Grundregeln der Reformation.
+
+    c.) Wir glauben an die Universale christliche Kirche, deren Kopf Jesus Christus ist, deren Mittglieder weltweit alle Christen sind, die durch den Heiligen Geist neu geboren worden und anstreben ihr Leben dem Wort Gottes unterzuordnen.
+
+    ## Unsere Ziele
+
+    Unser Ziel ist das Wort Gottes zu verbreiten und die Lehre im größt möglichstem Spektrum weiter zu geben (persönlich, schriftlich, hör- und sehbar, usw.). Dem Menschen nahe zu bringen daß: „Der Will, daß allen Menschen geholfenwerde und sie zur Erkentniss der Wahrheit kommen.” (Tim 2:4)
+
+    - Das religiöse Leben in der Gemeinde für jedes Mittglied und für jedermann der diesem bedürftig ist zu ermöglichen.
+    - In der Altersgruppe der über 10 jährigen möchten wir eine starke Präsenz auf folgenden Gebieten: Schulung von psychischer Gesundheit (Mentalhygiene), Drogenprävention, Charakter -und Beziehungsentwicklung, Erziehung und Aufklärung auf dem Gebiet der Sexualtät. Für jugendliche konnten wir bisher schon viel wertvolle hilfe leisten im Rahmen verschiedener Programme.
+    - Wir halten Bibelkurse um grundliegende Wahrheiten des christlichen Glaubens zu lehren.
+    - Karitative Arbeit - sammeln von Spenden und die Weiterleitung dieser an bedürftige.
+
+    Der Gesellschaft zum Nutzen sein, dort wo wir leben. Helfen mit Wort, Tat und Gebet!

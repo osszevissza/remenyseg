@@ -1,0 +1,27 @@
+{{/* Borítókép-slideshow mindhárom képpel, igényes áttűnéssel. Dekoratív, ezért aria-hidden. */}}
+{{ $images := .Site.Params.heroImages }}
+{{ $alt := .Site.Params.heroAlt }}
+<section class="hero" aria-label="Borítókép">
+  <div class="hero-slideshow" aria-hidden="true">
+    {{ range $i, $img := $images }}
+    <img src="{{ $img | relURL }}"
+         alt=""
+         class="hero-slide{{ if eq $i 0 }} is-active{{ end }}"
+         {{ if gt $i 0 }}loading="lazy"{{ else }}fetchpriority="high"{{ end }}
+         decoding="async">
+    {{ end }}
+    <div class="hero-gradient" aria-hidden="true"></div>
+  </div>
+  <div class="container hero-content">
+    {{ if .IsHome }}
+      <p class="hero-kicker">Tatabánya</p>
+      <h1 class="hero-title">Szeretettel köszöntjük!</h1>
+      <p class="hero-sub">{{ .Site.Params.description }}</p>
+    {{ else }}
+      <p class="hero-kicker">{{ .Site.Title }}</p>
+      <h1 class="hero-title">{{ .Title }}</h1>
+      {{ with .Description }}<p class="hero-sub">{{ . }}</p>{{ end }}
+    {{ end }}
+  </div>
+  <button type="button" class="hero-pause" id="hero-pause" aria-pressed="false"><span class="ikon" aria-hidden="true">⏸</span> <span class="felirat">Animáció szüneteltetése</span></button>
+</section>

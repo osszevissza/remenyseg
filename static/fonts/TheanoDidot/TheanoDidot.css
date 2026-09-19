@@ -1,0 +1,9 @@
+/* Theano Didot – Regular (Didone-próba a címekhez), a brief/fontok mappából optimalizálva */
+/* Csak Regular vágat – a címek is ezt használják (main.css: font-weight: 400) */
+@font-face {
+    font-family: 'TheanoDidot';
+    src: url('TheanoDidot-Regular.woff2?v=2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}

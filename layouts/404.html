@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Az oldal nem található | {{ .Site.Title }}</title>
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <a href="#tartalom">Ugrás a tartalomra</a>
+  <main id="tartalom">
+    <h1>Az oldal nem található (404)</h1>
+    <p>Sajnáljuk, a keresett oldal nem létezik.</p>
+    <p><a href="{{ "/" | relURL }}">Vissza a kezdőlapra</a></p>
+  </main>
+</body>
+</html>

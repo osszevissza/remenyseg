@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{ if .Params.toc }}
+  <div class="article-layout">
+    <details class="toc" id="toc">
+      <summary class="toc-title">Tartalomjegyzék</summary>
+      <div class="toc-body">
+        {{ .TableOfContents }}
+      </div>
+    </details>
+    <article class="card article">
+      <h2 class="visually-hidden">{{ .Title }}</h2>
+      {{ if .Params.nyelvvalto }}
+      {{ partial "nyelvvalto.html" (dict "page" . "kulcs" .Params.nyelvvalto "magyar" .Content) }}
+      {{ else }}
+      {{ .Content }}
+      {{ end }}
+    </article>
+  </div>
+  {{ else }}
+  <article class="card article">
+    <h2 class="visually-hidden">{{ .Title }}</h2>
+    {{ if .Params.nyelvvalto }}
+    {{ partial "nyelvvalto.html" (dict "page" . "kulcs" .Params.nyelvvalto "magyar" .Content) }}
+    {{ else }}
+    {{ .Content }}
+    {{ end }}
+  </article>
+  {{ end }}
+{{ end }}

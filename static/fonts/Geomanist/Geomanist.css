@@ -1,0 +1,24 @@
+/* Geomanist – Regular / Medium / Bold, a brief/fonts_system mappából optimalizálva */
+@font-face {
+    font-family: 'Geomanist';
+    src: url('Geomanist-Regular.woff2?v=2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('Geomanist-Medium.woff2?v=2') format('woff2');
+    font-style: normal;
+    font-weight: 500 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('Geomanist-Bold.woff2?v=2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
