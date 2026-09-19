@@ -6,7 +6,7 @@ draft: false
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 
-## Heti alkalmaink
+## Heti összejöveteleink
 
 - **Vasárnapi istentisztelet** — vasárnap 10:00. Tatabánya, Mátyás Király u. 19.
 - **Ima- és bibliaóra** — csütörtök 17:00. Tatabánya, Mátyás Király u. 19.
