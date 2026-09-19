@@ -14,6 +14,8 @@ address = "Tatabánya, Mátyás Király u. 19."
 phone = "+36 20 369 7741"
 # E-mail cím egyeztetés alatt – placeholder
 email = "info@example.hu"
+# YouTube-csatorna – a valódi URL-t ide írd majd (most helyőrző)
+youtube = "#"
 
 # Alkalmak – a lábléc és a kezdőlap is ebből épül
 [[params.alkalmak]]

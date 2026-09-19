@@ -64,6 +64,9 @@
         <p><a href="tel:{{ replace . " " "" }}">{{ . }}</a></p>
         {{ end }}
         <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        {{ with .Site.Params.youtube }}
+        <p><a href="{{ . }}">YouTube-csatornánk</a></p>
+        {{ end }}
       </div>
       {{ with .Site.Menus.footer }}
       <div>
