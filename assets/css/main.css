@@ -11,7 +11,7 @@
   --gold-deep: #7d5628; /* szöveges kiemelés, hover, aktív állapot */
   --line: #d9c9ae;
   --focus: #1a5fb4;
-  --radius: 14px;
+  --radius: 4px;
   --shadow: 0 2px 12px rgb(61 43 35 / 0.12);
   --font-body: "GeneralSans", system-ui, -apple-system, "Segoe UI", sans-serif;
   /* Címfont kipróbáláshoz csak ezt a sort kell cserélni:
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--brown-950);
   color: #fff;
   padding: 0.75rem 1.25rem;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 4px 4px;
   z-index: 100;
   transition: top 0.2s ease;
 }
@@ -208,11 +208,11 @@ a:hover { color: var(--gold-deep); }
 .hero-sub { margin: 0; max-width: 55ch; font-size: 1.1rem; }
 .hero-pause {
   position: absolute;
-  right: 1rem; bottom: 1rem;
+  right: 1rem; top: 2.25rem;
   background: rgb(255 253 248 / 0.95);
   color: var(--brown-950);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 4px;
   padding: 0.4rem 0.9rem;
   font-size: 0.9rem;
   cursor: pointer;
@@ -246,7 +246,7 @@ a:hover { color: var(--gold-deep); }
   margin: 0 0 1.25rem auto;
   padding: 0.2rem;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 4px;
   background: var(--beige-deep);
 }
 .nyelvvalto-vezerlok input {
@@ -259,7 +259,7 @@ a:hover { color: var(--gold-deep); }
 .nyelvvalto-vezerlok label {
   cursor: pointer;
   padding: 0.3rem 0.9rem;
-  border-radius: 999px;
+  border-radius: 4px;
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -408,7 +408,7 @@ a:hover { color: var(--gold-deep); }
   background: var(--gold-deep);
   color: #fff;
   padding: 0.55rem 1.2rem;
-  border-radius: 999px;
+  border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
 }
@@ -436,7 +436,7 @@ blockquote {
   width: 100%;
   min-height: 150px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 .verse-quote { min-height: 7rem; transition: opacity 1.8s ease; }
 .verse-quote cite { color: var(--gold-deep); }
@@ -446,7 +446,7 @@ blockquote {
   background: var(--brown-900);
   color: #fff;
   border: none;
-  border-radius: 999px;
+  border-radius: 4px;
   padding: 0.55rem 1rem;
   cursor: pointer;
   font-size: 0.95rem;
@@ -464,7 +464,7 @@ blockquote {
 }
 .gallery-item {
   display: block;
-  border-radius: 10px;
+  border-radius: 4px;
   overflow: hidden;
   border: 1px solid var(--line);
   background: var(--beige-deep);
@@ -512,7 +512,7 @@ dialog#galeria-dialog::backdrop { background: rgb(46 32 25 / 0.82); }
   background: rgb(255 253 248 / 0.92);
   color: var(--brown-950);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 4px;
   width: 2.2rem; height: 2.2rem;
   font-size: 1.3rem;
   line-height: 1;
@@ -546,7 +546,7 @@ dialog#galeria-dialog::backdrop { background: rgb(46 32 25 / 0.82); }
   place-items: center;
   width: 2.9rem;
   height: 2.9rem;
-  border-radius: 50%;
+  border-radius: 4px;
   background: var(--brown-900);
   color: #fff;
   box-shadow: 0 4px 14px rgb(46 32 25 / 0.35);
@@ -586,7 +586,7 @@ dialog#galeria-dialog::backdrop { background: rgb(46 32 25 / 0.82); }
     background: var(--brown-900);
     color: #fff;
     border: none;
-    border-radius: 999px;
+    border-radius: 4px;
     padding: 0.6rem 1.4rem;
     cursor: pointer;
     text-transform: uppercase;
@@ -595,6 +595,7 @@ dialog#galeria-dialog::backdrop { background: rgb(46 32 25 / 0.82); }
     font-weight: 600;
   }
   .nav-toggle:hover { background: var(--brown-700); }
+  .header-inner { padding-bottom: 1.1rem; }
   .nav-list {
     display: none;
     position: absolute;
@@ -603,7 +604,7 @@ dialog#galeria-dialog::backdrop { background: rgb(46 32 25 / 0.82); }
     top: calc(100% + 0.5rem);
     background: var(--beige-card);
     border: 1px solid var(--line);
-    border-radius: 12px;
+    border-radius: 4px;
     box-shadow: var(--shadow);
     flex-direction: column;
     align-items: stretch;
@@ -614,7 +615,7 @@ dialog#galeria-dialog::backdrop { background: rgb(46 32 25 / 0.82); }
   .nav-list a {
     text-align: center;
     border-bottom: none;
-    border-radius: 8px;
+    border-radius: 4px;
     transition: background-color 0.15s ease, color 0.15s ease;
   }
   .nav-list a:hover,
