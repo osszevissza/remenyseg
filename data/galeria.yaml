@@ -2,6 +2,12 @@
 # Kulcs: a kép fájlneve az assets/img/galeria/ mappából.
 #   alt:     képleírás képernyőolvasóknak
 #   caption: a nagyított kép alatt megjelenő felirat (elhagyható)
+"alapitok-2012.webp":
+  alt: "A gyülekezet alapítói 2012-ben, a gyülekezeti házban"
+  caption: "Alapítók, 2012"
+"csapatkep-2014.webp":
+  alt: "A gyülekezet közössége 2014-ben"
+  caption: "Csapatkép, 2014"
 "foto-01.jpg":
   alt: "Helyőrző kép – gyülekezeti fotó helye"
 "foto-02.jpg":
@@ -15,8 +21,4 @@
 "foto-06.jpg":
   alt: "Helyőrző kép – gyülekezeti fotó helye"
 "foto-07.jpg":
-  alt: "Helyőrző kép – gyülekezeti fotó helye"
-"foto-08.jpg":
-  alt: "Helyőrző kép – gyülekezeti fotó helye"
-"foto-09.jpg":
   alt: "Helyőrző kép – gyülekezeti fotó helye"

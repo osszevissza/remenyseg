@@ -1,15 +1,15 @@
 ---
 title: "Adományozás"
-description: "Az adományozás lehetőségei."
+description: "A gyülekezet szolgálatának támogatási lehetőségei."
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hálásan köszönjük, ha a gyülekezet szolgálatát adományával is szeretné támogatni. A felajánlásokat bankszámlára történő átutalással fogadjuk.
 
-## Hogyan segíthet? (minta)
+## Bankszámlaadatok
 
-- **Lorem ipsum** — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-- **Lorem ipsum** — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-- **Lorem ipsum** — Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+- **Bank:** K&H Bank
+- **Bankszámlaszám:** 1040 0913 0002 7380 0000 0000
+- **IBAN:** HU60 1040 0913 0002 7380 0000 0000
 
-> A bankszámlaszám és a technikai részletek feltöltés alatt állnak.
+Minden támogatást hálásan köszönünk, és Isten gazdag áldását kérjük a támogatókra.

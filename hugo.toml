@@ -10,8 +10,11 @@ description = "A tatabányai Reménység gyülekezet weboldala"
 tagline = "Segíteni szóval, tettel, imádsággal"
 # Kezdőlap hero alcíme (rólunk_hu.doc)
 heroSub = "Az igazi reménység Istennél, Jézus Krisztusban"
+# Megjegyzés a vasárnapi alkalomhoz
+alkalomMegjegyzes = "Minden hónap első vasárnapján úrvacsorai alkalom."
 # Borítóképek mindhárom, minden oldalon rotálva. Elérési út a static/ mappához képest.
-heroImages = ["img/demo1.webp", "img/demo2.webp", "img/demo3.webp"]
+# A ?v=2 a böngésző-cache miatt kell (azonos URL-t használ más projekt is localhoston)
+heroImages = ["img/demo1.webp?v=2", "img/demo2.webp?v=2", "img/demo3.webp?v=2"]
 heroAlt = "Gyülekezeti közösség – illusztráció"
 # Elérhetőségek (a gyülekezet szóróanyaga alapján)
 address = "Tatabánya, Mátyás Király u. 19."
@@ -22,15 +25,11 @@ email = "info@example.hu"
 youtube = "#"
 
 # Alkalmak – a lábléc és a kezdőlap is ebből épül
+# (a hétközbeni alkalmak változóak, ezért itt csak a vasárnapi szerepel)
 [[params.alkalmak]]
   nap = "Vasárnap"
   ido = "10:00"
   nev = "Istentisztelet"
-
-[[params.alkalmak]]
-  nap = "Csütörtök"
-  ido = "17:00"
-  nev = "Ima- és bibliaóra"
 
 [menus]
 

@@ -9,7 +9,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 ## Heti összejöveteleink
 
 - **Vasárnapi istentisztelet** — vasárnap 10:00. Tatabánya, Mátyás Király u. 19.
-- **Ima- és bibliaóra** — csütörtök 17:00. Tatabánya, Mátyás Király u. 19.
+
+Minden hónap első vasárnapján úrvacsorai alkalom.
 
 ## Hírek
 

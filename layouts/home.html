@@ -17,7 +17,7 @@
         <button type="button" id="ige-kovetkezo">Következő ige →</button>
       </div>
       <figure class="verse-kep">
-        <img src="{{ "img/vers-hatter.jpg" | relURL }}" alt="" loading="lazy" decoding="async">
+        <img src="{{ "img/vers-hatter.webp" | relURL }}?v=2" alt="" loading="lazy" decoding="async">
       </figure>
       <noscript>
         <ul class="verse-noscript">
@@ -44,6 +44,9 @@
           </li>
           {{ end }}
         </ul>
+        {{ with .Site.Params.alkalomMegjegyzes }}
+        <p class="alkalom-megjegyzes">{{ . }}</p>
+        {{ end }}
         <p class="alkalom-hely">{{ .Site.Params.address }}</p>
       </div>
       <div class="tamogatas">

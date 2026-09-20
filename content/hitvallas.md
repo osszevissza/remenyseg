@@ -1,17 +1,17 @@
 ---
 title: "Hitvallásunk"
-description: "A TEKK – Tatabányai Reménység Gyülekezet hitvallása."
+description: "A Tatabányai Reménység Gyülekezet hitvallása."
 draft: false
 toc: true
 ---
 
-*TEKK – Tatabányai Reménység Gyülekezet hitvallása — részlet.*
+*Tatabányai Reménység Gyülekezet hitvallása — részlet.*
 
 ## I. Bevezető rendelkezések
 
 ### A. Történetünk és nevünk bibliai értelme
 
-**TEKK – Teljes Evangéliumi Keresztyén Közösség**
+**Teljes Evangéliumi Keresztyén Közösség**
 
 **a.** A „Teljes Evangéliumi” azt jelenti, hogy a teljes Bibliát, mint Isten tulajdon szavát hisszük, és a mai napra is érvényesként fogadjuk el. Hisszük, hogy Jézus Krisztus evangéliuma: Isten országának evangéliuma, s mint örömüzenet a teljes ember teljes megváltását tartalmazza. Jézus Krisztus bűntelen élete, kereszthalála és feltámadása által győzelmet aratott a Sátán felett. Legyőzte a bűnt, a halált, a betegséget s a gonosz minden erejét. Megváltó és szabadító munkája lehetővé tette az ember egészének (test, lélek, szellem) megváltását: bűnbocsánatot, újjászületést, örök életet, majd testi és lelki gyógyulást, egészséget, s azontúl szabadulást és megszentelődést kínál mindenkinek, aki azt hittel elfogadja. Ezzel együtt Isten ígéretei lehetőséget nyújtanak arra, hogy az ember élete hit által gyümölcsöző, bővölködő és győzelmes élet legyen.
 

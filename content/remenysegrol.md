@@ -106,3 +106,8 @@ Mi is itt Tatabányán – de bárki, aki csak olvassa e sorokat – a gyülekez
 
 > Forog a világ, de áll a kereszt.
 > — Szent Ágoston
+
+<figure class="cikk-kep">
+  <img src="/img/alapitok-2012.webp" alt="A gyülekezet alapítói 2012-ben, a gyülekezeti házban">
+  <figcaption>A gyülekezet alapítói, 2012</figcaption>
+</figure>
