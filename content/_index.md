@@ -19,4 +19,4 @@ Rendkívül fontosnak tartom az élő közösség, a koinonia (gör.) erejét. A
 Szeretettel várjuk alkalmainkra!
 
 *Dezső Tibor*
-*lelkinpásztor*
+*lelkipásztor*
